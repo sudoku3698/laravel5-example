@@ -1,4 +1,7 @@
 <?php
+Route::get('test',function(){
+  echo "testing";
+});
 
 Route::group(['middleware' => ['web']], function () {
 
